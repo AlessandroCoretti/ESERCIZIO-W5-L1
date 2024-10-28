@@ -204,17 +204,17 @@ footer a {
   }
 
   #html-logo {
-    height: 50px;
+    height: 60px;
+    border: 0.3rem solid;
+    border-color: #0a7bbd;
+    box-shadow: 0 0 0 0.3rem #a02571;
+    padding: 2.5px;
   }
 }
 
 @media screen and (min-width: 577px) {
   header {
     padding: 3%;
-  }
-
-  header div img {
-    height: 5rem;
   }
 
   header p {
@@ -227,10 +227,10 @@ footer a {
   }
 
   #html-logo {
-    height: 100px;
-    border: 0.8rem solid;
+    height: 60px;
+    border: 0.3rem solid;
     border-color: #0a7bbd;
-    box-shadow: 0 0 0 0.8rem #a02571;
+    box-shadow: 0 0 0 0.3rem #a02571;
     padding: 2.5px;
   }
 
@@ -247,117 +247,123 @@ footer a {
   }
 
   section {
-    font-size: small;
+    font-size: medium;
   }
 
   section h2 {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
     background-color: #838383;
   }
 
   form input {
     margin-bottom: 0.8rem;
   }
+
+  aside h2 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 769px) {
-  header {
-    padding: 1%;
-    text-align: left;
-  }
-
-  header div img {
-    height: 5rem;
-    margin-bottom: 0;
-  }
-
-  header p {
-    font-size: larger;
-    text-align: center;
-  }
   header ul {
     text-align: center;
   }
 
   header li {
     display: inline;
-    margin-inline: 6rem;
+    margin-inline: 0.5rem;
+    font-weight: normal;
+    font-size: medium;
   }
 
   #html-logo {
-    height: 100px;
-    border: 0.8rem solid;
+    height: 70px;
+    border: 0.5rem solid;
     border-color: #0a7bbd;
-    box-shadow: 0 0 0 0.8rem #a02571;
+    box-shadow: 0 0 0 0.5rem #a02571;
     padding: 2.5px;
   }
 
   article {
-    font-size: large;
+    font-weight: 600;
   }
 
   article h1 {
     font-size: 5rem;
+    max-width: 65%;
+    line-height: 110%;
+  }
+
+  article h2 {
+    font-weight: 700;
+    font-size: large;
+  }
+
+  table {
+    width: 70%;
+    margin-inline: 10rem;
   }
 
   section {
     height: 20rem;
   }
   section h2 {
-    margin-bottom: 0.8rem;
-    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
     background-color: #838383;
   }
   section p {
     font-size: 2rem;
   }
   fieldset {
-    text-align: center;
+    text-align: left;
   }
 
   form input {
-    height: 4.5rem;
-    width: 50rem;
-    margin-right: 0.8rem;
+    padding: 1.5rem 9rem;
   }
 
   button {
-    height: 4.5rem;
-    margin-left: 2rem;
+    padding: 1.5rem 2rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   header {
-    padding: 1%;
     text-align: left;
   }
 
   header div img {
     height: 8rem;
     margin-bottom: 0;
+    margin-right: 2rem;
+  }
+
+  header div p {
+    display: inline;
+    vertical-align: middle;
   }
 
   header p {
-    font-size: 2.7rem;
-    text-align: center;
+    font-size: 2rem;
   }
+
   header ul {
-    text-align: center;
+    text-align: right;
   }
 
   header li {
-    display: inline;
     font-size: 1.8rem;
-    margin-inline: 10rem;
   }
+
   #html-logo {
-    height: 100px;
-    border: 0.8rem solid;
+    height: 60px;
+    border: 0.3rem solid;
     border-color: #0a7bbd;
-    box-shadow: 0 0 0 0.8rem #a02571;
+    box-shadow: 0 0 0 0.3rem #a02571;
     padding: 2.5px;
   }
+
   article h1 {
     font-size: 5rem;
   }
