@@ -70,6 +70,12 @@ section h2 {
   margin-bottom: 1em;
 }
 
+#html-logo {
+  border: 7px solid;
+  border-color: #0a7bbd;
+  box-shadow: 0 0 0 7px #a02571;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
   font-size: 2.6rem;
@@ -380,5 +386,23 @@ footer a {
 
   aside div {
     width: 30rem;
+  }
+}
+
+@media print {
+  header {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  section {
+    display: none;
+  }
+
+  aside {
+    display: none;
   }
 }
