@@ -432,4 +432,8 @@ footer a {
   aside {
     display: none;
   }
+
+  footer {
+    display: none;
+  }
 }
