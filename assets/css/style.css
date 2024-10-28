@@ -71,9 +71,10 @@ section h2 {
 }
 
 #html-logo {
-  border: 7px solid;
+  border: 0.5rem solid;
   border-color: #0a7bbd;
-  box-shadow: 0 0 0 7px #a02571;
+  box-shadow: 0 0 0 0.5rem #a02571;
+  padding: 2.5px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -201,6 +202,10 @@ footer a {
   section h2 {
     background-color: #838383;
   }
+
+  #html-logo {
+    height: 50px;
+  }
 }
 
 @media screen and (min-width: 577px) {
@@ -219,6 +224,14 @@ footer a {
   header li {
     display: inline;
     margin-right: 3rem;
+  }
+
+  #html-logo {
+    height: 100px;
+    border: 0.8rem solid;
+    border-color: #0a7bbd;
+    box-shadow: 0 0 0 0.8rem #a02571;
+    padding: 2.5px;
   }
 
   article {
@@ -269,6 +282,14 @@ footer a {
   header li {
     display: inline;
     margin-inline: 6rem;
+  }
+
+  #html-logo {
+    height: 100px;
+    border: 0.8rem solid;
+    border-color: #0a7bbd;
+    box-shadow: 0 0 0 0.8rem #a02571;
+    padding: 2.5px;
   }
 
   article {
@@ -330,7 +351,13 @@ footer a {
     font-size: 1.8rem;
     margin-inline: 10rem;
   }
-
+  #html-logo {
+    height: 100px;
+    border: 0.8rem solid;
+    border-color: #0a7bbd;
+    box-shadow: 0 0 0 0.8rem #a02571;
+    padding: 2.5px;
+  }
   article h1 {
     font-size: 5rem;
   }
